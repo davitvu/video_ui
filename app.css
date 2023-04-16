@@ -139,6 +139,14 @@ html {
     right: 20px;
 }
 
+#column {
+    height: 100vh;
+}
+
+#column video {
+    padding: 20px 0 0 20px;
+}
+
                                         /* Dark mode */
 .app.dark #navbar-container {
     background-color: #000;
@@ -193,8 +201,6 @@ html {
     color: #fff;
 }
 
-
-
-
-
-
+.app.dark #column {
+    background-color: #000;
+}
